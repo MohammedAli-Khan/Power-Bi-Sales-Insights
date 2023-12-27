@@ -1,0 +1,16 @@
+{
+  "name": "NeonWithShadows",
+  "dataColors": ["#00FF00", "#FF00FF", "#00FFFF", "#FFFF00", "#FF0000", "#0000FF"], // Neon colors
+  "visualStyles": {
+    "*": {
+      "dataLabel": {
+        "fontSize": 15 // Set data label font size to 15
+      },
+      "boxShadow": {
+        "default": {
+          "shadow": true // Add shadows to charts
+        }
+      }
+    }
+  }
+}
